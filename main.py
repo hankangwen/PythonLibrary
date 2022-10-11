@@ -4,8 +4,10 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import extracthtml
+import qrcodeScanner
 import screenshot
 import copyCode
+import createQRCode
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -15,6 +17,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Kerven')
+    qrcodeScanner.start()
+    # createQRCode.createWithIcon()
     # copyCode.start()
     # screenshot.grab_screenshot()
     # screenshot.grab_screenshot_area()
