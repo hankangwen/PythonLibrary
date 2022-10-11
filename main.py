@@ -5,6 +5,7 @@
 
 import extracthtml
 import screenshot
+import copyCode
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -14,7 +15,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Kerven')
-
+    # copyCode.start()
     # screenshot.grab_screenshot()
     # screenshot.grab_screenshot_area()
     # screenshot.grab_screenshot_delay()
