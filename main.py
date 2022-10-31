@@ -8,6 +8,9 @@ import qrcodeScanner
 import screenshot
 import copyCode
 import createQRCode
+import sendWechat
+from YamlConfig import TestYaml
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -17,7 +20,9 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Kerven')
-    qrcodeScanner.start()
+    TestYaml.start()
+    # qrcodeScanner.start()
+    # sendWechat.start()
     # createQRCode.createWithIcon()
     # copyCode.start()
     # screenshot.grab_screenshot()
