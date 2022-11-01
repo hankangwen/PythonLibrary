@@ -9,6 +9,7 @@ import screenshot
 import copyCode
 import createQRCode
 import sendWechat
+from GetHtml import csdn_crawer
 from YamlConfig import TestYaml
 
 
@@ -20,7 +21,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Kerven')
-    TestYaml.start()
+    csdn_crawer.start()
+    # TestYaml.start()
     # qrcodeScanner.start()
     # sendWechat.start()
     # createQRCode.createWithIcon()
