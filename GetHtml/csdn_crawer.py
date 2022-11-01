@@ -5,7 +5,7 @@ import bs4
 
 
 def start():
-    for i in range(20):
+    for i in range(50):
         time.sleep(5)
         print(i)
         start1()
@@ -30,4 +30,4 @@ def start1():
                 value1 = "{}".format(link1.get('href'))
                 if value1.find('qq_34035956/article') != -1 & value1.find("comments") == -1:
                     requests.get(value1, headers=headers0)
-                    requests.get(value1, headers=headers1)
+                    # requests.get(value1, headers=headers1)
