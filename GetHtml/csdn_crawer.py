@@ -1,7 +1,16 @@
+import time
+
 import requests
 import bs4
 
+
 def start():
+    for i in range(20):
+        time.sleep(5)
+        print(i)
+        start1()
+
+def start1():
     headers0 = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36(KHTHL, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
     }
