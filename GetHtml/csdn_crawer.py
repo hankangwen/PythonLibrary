@@ -5,10 +5,10 @@ import bs4
 
 
 def start():
-    for i in range(50):
-        time.sleep(5)
+    for i in range(500):
         print(i)
         start1()
+        time.sleep(1)
 
 def start1():
     headers0 = {
@@ -33,5 +33,5 @@ def start1():
             for link1 in obj_soup1.find_all('a'):
                 value1 = "{}".format(link1.get('href'))
                 if value1.find('qq_34035956/article') != -1 & value1.find("comments") == -1:
-                    requests.get(value1, headers=headers0)
+                    requests.get(value1, headers=headers1)
                     # requests.get(value1, headers=headers1)

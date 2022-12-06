@@ -6,7 +6,7 @@
 
 from pyautogui import screenshot
 import time
-from PIL import ImageGrab
+# from PIL import ImageGrab
 
 
 # Grab Screenshot of Screen
@@ -19,9 +19,9 @@ def grab_screenshot():
 # Grab Screenshot of Specific Area
 def grab_screenshot_area():
     area = (0, 0, 500, 500)
-    shot = ImageGrab.grab(area)
-    # shot.save('my_screenshot_area.png')
-    shot.save('e:\my_screenshot_area.png')
+    # shot = ImageGrab.grab(area)
+    # # shot.save('my_screenshot_area.png')
+    # shot.save('e:\my_screenshot_area.png')
 
 
 # Grab Screenshot with Delay
