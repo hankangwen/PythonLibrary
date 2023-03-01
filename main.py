@@ -1,6 +1,8 @@
+import QCloudsms
+
 
 def start():
-    print("123")
+    QCloudsms.start()
 
 if __name__ == '__main__':
     start()
